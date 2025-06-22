@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="button-Sec">
+        <button class="rock-btn">👊</button>
+        <button class="paper-btn">📄</button>
+        <button class="scissors-btn">✂</button>
+      </section>
+      <section class="img-Sec hidden">
+        <div class="img-div">
+          <h2>You chose</h2>
+          <img
+            src="./images/paper-emoji.png"
+            alt="user-choice"
+            class="user-img"
+          />
+        </div>
+        <div class="img-div">
+          <img src="images/rock-emoji.png" alt="bot-choice" class="bot-img" />
+          <h2>bot chose</h2>
+        </div>
+      </section>
+      <section class="score-Sec">
+        <h3>Wins : <span class="score curScore">0</span></h3>
+        <h3>Loses : <span class="score highScore">0</span></h3>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
